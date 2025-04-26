@@ -24,14 +24,11 @@ span{
     0%{
         transform: translate(-50%, -50%);
         opacity: 1;
-        filter: hue-rotate(0turn);  
-        /* turn means how many degree */
-                       
+        filter: hue-rotate(0turn);
     }
     100%{
        transform: translate(-50%, -5000%);
        opacity: 0;
-       filter: hue-rotate(5turn);
-       /* 1 deg = 360    5 * 360 =  1800 */
+       filter: hue-rotate(4turn);
     }
 }
